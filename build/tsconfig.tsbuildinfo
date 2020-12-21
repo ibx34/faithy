@@ -227,8 +227,8 @@
         "affectsGlobalScope": false
       },
       "../src/config.json": {
-        "version": "50e701ff63da3ca64eee6a19cbb7ff6caf3e1921cb363311173e8038f126cc26",
-        "signature": "d94732fdcc5e29aa6501fea687b51da8a484781c09f86eb025074571a9c0b61f",
+        "version": "58da6fa40a032bb8ab2447f014e083b5789e879a1e31ce235d7207f3bbc76731",
+        "signature": "04c9fb022e3491c3ae54fb8406b197fe2fde3859d04a5ab095c194de9417c927",
         "affectsGlobalScope": true
       },
       "../src/index.ts": {
@@ -237,12 +237,12 @@
         "affectsGlobalScope": false
       },
       "../src/commands/moderation/ban.ts": {
-        "version": "af011373041d0b630c17f10c5938b2d8079320cf3832c27b524db2e3d66312a9",
+        "version": "70490fc334aaff9bfb180bcc1520abfa5adc390ad6f3b9753d8bc78a22b85c55",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
         "affectsGlobalScope": false
       },
       "../src/commands/moderation/kick.ts": {
-        "version": "738e916d37155372d88e4756efc15216727b342b7a8f3daba9d46ec6b3d10a22",
+        "version": "90949090f0de5487f7039831baab84101de21c8ef8db48715e04fbd9d827370c",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
         "affectsGlobalScope": false
       },
@@ -685,7 +685,8 @@
         "../node_modules/eris/index.d.ts"
       ],
       "../src/commands/moderation/kick.ts": [
-        "../node_modules/eris/index.d.ts"
+        "../node_modules/eris/index.d.ts",
+        "../src/config.json"
       ],
       "../src/index.ts": [
         "../node_modules/@types/node/fs.d.ts",

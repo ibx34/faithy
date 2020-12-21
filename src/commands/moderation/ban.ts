@@ -9,16 +9,14 @@ async function ban_func(msg, args) {//,user:Member,reason?:string) {
     await msg.channel.createMessage(`(!) ${user.username}#${user.discriminator} has banned. (${reason})`);
 }
 
-const ban = new Command(
-    "ban",
-    ban_func,
-    {
-        caseInsensitive: true,
-        guildOnly: true
-    }
-)
-
 module.exports.command = {
     "label": "ban",
-    "func": ban
+    "func": new Command(
+        "ban",
+        ban_func,
+        {
+            caseInsensitive: true,
+            guildOnly: true
+        }
+    )
 }
