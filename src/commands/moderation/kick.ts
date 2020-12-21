@@ -1,7 +1,7 @@
 import { Command, Member, Embed } from "eris";
 import config from "../../config.json";
 
-async function kickFunc(msg, args) {//,user:Member,reason?:string) {
+async function kickFunc(msg, args) {
     const user: Member = msg.mentions[0]
     let reason: string = args.slice(1).join(" ")
     if (!reason) reason = `[${msg.author.username}#${msg.author.discriminator}] No reason provided.`
