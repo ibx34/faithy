@@ -237,12 +237,17 @@
         "affectsGlobalScope": false
       },
       "../src/commands/moderation/ban.ts": {
-        "version": "70490fc334aaff9bfb180bcc1520abfa5adc390ad6f3b9753d8bc78a22b85c55",
+        "version": "e93ee3926fc9ab9d2ef015bf90e31e52632e024aae98a9ee21bfea69f17ed664",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
         "affectsGlobalScope": false
       },
       "../src/commands/moderation/kick.ts": {
-        "version": "90949090f0de5487f7039831baab84101de21c8ef8db48715e04fbd9d827370c",
+        "version": "1b88ba23f07727814f8a880f444367d2f0df17b412f90c6093992f47b5bf11c3",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
+        "affectsGlobalScope": false
+      },
+      "../src/commands/moderation/purge.ts": {
+        "version": "04873d85f26bdbdecdab846a4eac01cb1d53050920618dd614204e94d701ea5e",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
         "affectsGlobalScope": false
       },
@@ -682,9 +687,14 @@
         "../node_modules/opusscript/index.d.ts"
       ],
       "../src/commands/moderation/ban.ts": [
-        "../node_modules/eris/index.d.ts"
+        "../node_modules/eris/index.d.ts",
+        "../src/config.json"
       ],
       "../src/commands/moderation/kick.ts": [
+        "../node_modules/eris/index.d.ts",
+        "../src/config.json"
+      ],
+      "../src/commands/moderation/purge.ts": [
         "../node_modules/eris/index.d.ts",
         "../src/config.json"
       ],
@@ -967,6 +977,7 @@
       "../node_modules/typescript/lib/lib.esnext.weakref.d.ts",
       "../src/commands/moderation/ban.ts",
       "../src/commands/moderation/kick.ts",
+      "../src/commands/moderation/purge.ts",
       "../src/config.json",
       "../src/index.ts"
     ]
